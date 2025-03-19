@@ -1,0 +1,40 @@
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 30px;
+    color: white;
+    &_text{
+        width: 550px;
+        h1, h2:first-of-type{
+            text-transform: uppercase;
+        }
+
+        button{
+            margin: 25px;
+            background-color: white;
+            // margin: 25px;
+            width: 117px;
+            height: 57px;
+            border: solid 8px #44010A;
+            border-radius: 20px;
+            // outline:solid white 1px;
+            color: #44010A;
+            cursor: pointer;
+            transition: all 0.5s;
+
+            &:hover{
+                box-shadow: 0 0 0 3px #fff, 0 0 0 5px;
+            }
+
+
+        }
+    }
+    &_img{
+        display: flex;
+        gap: 24px;
+    }
+}
+
