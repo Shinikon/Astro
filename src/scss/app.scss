@@ -139,7 +139,6 @@ ul {
 
   &__sign {
     margin-top: 38px;
-    margin-bottom: 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -147,7 +146,7 @@ ul {
     padding-left: 60px;
     padding-right: 60px;
     height: 130px;
-    border-bottom: 1px solid #2c0107;
+    border-bottom: 3px solid #44010a;
     a {
       color: #e4dfd9;
     }
@@ -155,7 +154,7 @@ ul {
     button {
       width: 502px;
       height: 110px;
-      background-color: #2c0107;
+      background-color: #44010a;
       border-radius: 400px;
       border: 4px solid #e4dfd9;
       //   outline: 4px solid #2c0107;
@@ -163,8 +162,85 @@ ul {
       transition: all 0.5s;
 
       &:hover {
-        box-shadow: 0 0 0 3px #2c0107, 0 0 0 5px;
+        box-shadow: 0 0 0 3px #44010a, 0 0 0 5px;
       }
     }
   }
+}
+
+.about {
+  &__desc {
+    margin-left: 60px;
+    margin-right: 60px;
+    display: flex;
+    // align-items: center;
+    justify-content: space-between;
+    color: #e4dfd9;
+
+    &_text {
+      width: 723px;
+      text-align-last: left;
+
+      :first-child {
+        margin-top: 0;
+      }
+
+      h3 {
+        margin-top: 25px;
+      }
+
+      ul {
+        margin-top: 20px;
+        // margin-bottom: 20px;
+        padding-left: 30px;
+        font-family: "Overpass", sans-serif;
+        font-optical-sizing: auto;
+        font-size: 20px;
+      }
+    }
+  }
+
+  &__block {
+    margin-left: 60px;
+    width: 1172px;
+    height: 1065px;
+    margin-top: 45px;
+    margin-bottom: 50px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 71px;
+    color: #e4dfd9;
+    &_rotate {
+      writing-mode: sideways-lr;
+    }
+
+    &_desc {
+      display: flex;
+      padding: 60px;
+      width: 904px;
+      height: 895px;
+      background-color: #260005;
+      border: 3px solid #d9d9d9;
+      border-radius: 30px;
+      h2 {
+        margin-top: 20px;
+        margin-bottom: 20px;
+      }
+    }
+
+    &_side {
+      display: flex;
+      writing-mode: sideways-rl;
+      gap: 60px;
+    }
+  }
+
+  //   p {
+  //     width: 400px;
+  //     color: #d9d9d9;
+  //     font-size: 32px;
+  //     transform: rotate(90deg);
+  //   }
 }

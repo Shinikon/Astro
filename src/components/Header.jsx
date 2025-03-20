@@ -21,7 +21,7 @@ function Header() {
             </Link>
           </li>
           <li>
-            <Link to="/AU">
+            <Link to="/AboutUs">
               <h3>About Us</h3>
             </Link>
           </li>

@@ -7,7 +7,7 @@ import Main from "./pages/Main";
 import Catalog from "./pages/Catalog";
 import Cart from "./pages/Cart";
 import Contact from "./pages/Contact";
-import AboutUs from "./pages/AU";
+import AboutUs from "./pages/AboutUs";
 import Product from "./pages/Product";
 import User from "./pages/User";
 
