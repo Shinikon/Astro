@@ -6,6 +6,7 @@ import { BrowserRouter, Route, Routes, Link } from "react-router-dom";
 import Main from "./pages/Main";
 import Catalog from "./pages/Catalog";
 import Cart from "./pages/Cart";
+import Contact from "./pages/Contact";
 
 import Header from "./components/Header";
 import Footer from "./components/Footer";
