@@ -5,6 +5,7 @@ import { BrowserRouter, Route, Routes, Link } from "react-router-dom";
 // Импортируем компоненты страниц (предполагается, что они находятся в папке 'pages')
 import Main from "./pages/Main";
 import Catalog from "./pages/Catalog";
+import Cart from "./pages/Cart";
 
 import Header from "./components/Header";
 import Footer from "./components/Footer";
@@ -20,8 +21,8 @@ function App() {
         <Routes>
           <Route path="/" element={<Main />} />
           <Route path="/catalog" element={<Catalog />} />
-          {/* <Route path="/cart" element={<Cart />} />
-          <Route path="/contacts" element={<Contacts />} />
+          <Route path="/cart" element={<Cart />} />
+          {/* <Route path="/contacts" element={<Contacts />} />
           <Route path="/aboutUs" element={<AboutUs />} />
           <Route path="/product" element={<Product />} />
           <Route path="/user" element={<User />} /> */}
