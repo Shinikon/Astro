@@ -16,17 +16,17 @@ function Header() {
         </Link>
         <ul className="header__nav">
           <li>
-            <Link to="/">
+            <Link to="/catalog">
               <h3>Сatalog</h3>
             </Link>
           </li>
           <li>
-            <Link to="/order">
+            <Link to="/AU">
               <h3>About Us</h3>
             </Link>
           </li>
           <li>
-            <Link to="/portfolio">
+            <Link to="/Contact">
               <h3>Contacts</h3>
             </Link>
           </li>
@@ -34,13 +34,13 @@ function Header() {
         <div className="header__icons">
           <Link to="/user">
             {/* <div> */}
-              <img src={user} alt="user" />
+            <img src={user} alt="user" />
             {/* </div> */}
           </Link>
           <Link to="/cart">
             {/* <div> */}
-              <img src={cart} alt="cart" />
-              <h3>cart - 4</h3>
+            <img src={cart} alt="cart" />
+            <h3>cart - 4</h3>
             {/* </div> */}
           </Link>
         </div>

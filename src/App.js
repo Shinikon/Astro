@@ -7,6 +7,9 @@ import Main from "./pages/Main";
 import Catalog from "./pages/Catalog";
 import Cart from "./pages/Cart";
 import Contact from "./pages/Contact";
+import AboutUs from "./pages/AU";
+import Product from "./pages/Product";
+import User from "./pages/User";
 
 import Header from "./components/Header";
 import Footer from "./components/Footer";
@@ -23,10 +26,10 @@ function App() {
           <Route path="/" element={<Main />} />
           <Route path="/catalog" element={<Catalog />} />
           <Route path="/cart" element={<Cart />} />
-          {/* <Route path="/contacts" element={<Contacts />} />
+          <Route path="/contact" element={<Contact />} />
           <Route path="/aboutUs" element={<AboutUs />} />
           <Route path="/product" element={<Product />} />
-          <Route path="/user" element={<User />} /> */}
+          <Route path="/user" element={<User />} />
         </Routes>
         <Footer />
       </div>
