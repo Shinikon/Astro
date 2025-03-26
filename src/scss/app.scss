@@ -36,6 +36,8 @@ ul {
 
 .App {
   width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .title {
@@ -219,28 +221,37 @@ ul {
     &_desc {
       display: flex;
       padding: 60px;
-      width: 904px;
-      height: 895px;
+      // width: 1024px;
+      // height: 895px;
       background-color: #260005;
       border: 3px solid #d9d9d9;
       border-radius: 30px;
-      h2 {
-        margin-top: 20px;
-        margin-bottom: 20px;
+      gap: 114px;
+
+      &_text {
+        width: 676px;
+        h2 {
+          margin-top: 20px;
+          margin-bottom: 20px;
+          width: 583px;
+        }
+      }
+
+      &_side {
+        display: grid;
+        grid-template-columns: 350px 266px;
+        // grid-template-rows: repeat(2, auto);
+        writing-mode: sideways-rl;
+        column-gap: 60px;
       }
     }
-
-    &_side {
-      display: flex;
-      writing-mode: sideways-rl;
-      gap: 60px;
-    }
   }
-
-  //   p {
-  //     width: 400px;
-  //     color: #d9d9d9;
-  //     font-size: 32px;
-  //     transform: rotate(90deg);
-  //   }
 }
+
+//   p {
+//     width: 400px;
+//     color: #d9d9d9;
+//     font-size: 32px;
+//     transform: rotate(90deg);
+//   }
+// }

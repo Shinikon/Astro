@@ -57,7 +57,7 @@ function AU() {
           Advantages and Distinctive Features
         </h1>
         <div className="about__block_desc">
-          <div>
+          <div className="about__block_desc_text">
             <h1>1% for the Planet</h1>
             <h2>
               Since its founding, the company has donated over $100 million (as
@@ -76,15 +76,11 @@ function AU() {
               pleasure!
             </h2>
           </div>
-          <div className="about__block_side">
-            <div>
-              <h1>4.8 out of 5</h1>
-              <h2>average product rating</h2>
-            </div>
-            <div>
-              <h1>10%</h1>
-              <h2>discount for new customers</h2>
-            </div>
+          <div className="about__block_desc_side">
+            <h1>4.8 out of 5</h1>
+            <h1>10%</h1>
+            <h2>average product rating</h2>
+            <h2>discount for new customers</h2>
           </div>
         </div>
       </div>
